@@ -3,7 +3,9 @@ import argparse, os, cv2
 
 
 # set the path here
-dataset_folder = '/opt/dataset'
+# dataset_folder = '/opt/dataset' 
+local_folder = '/home/shubodh/Downloads/data-non-onedrive/indoor_localization_data/RIO10_full/RIO10_data/' 
+dataset_folder = local_folder
 scene_id = 1 # {1, 2, ..., 10}
 
 
